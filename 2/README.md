@@ -1,3 +1,27 @@
+# Installation and Usage
+
+Install dependencies:
+
+```sh
+cd 2/
+$ yarn install
+```
+
+Run:
+
+```sh
+$ yarn run start
+
+# speed up the loop and inspect number of connections per server
+$ DEBUG='least-connected' LOOP_INTERVAL=10 yarn run start
+```
+
+Run tests:
+```sh
+$ yarn run test
+```
+
+
 # Objective 2
 
 Update the load balancer such that each server is acquired for a random period of time between 1

@@ -1,3 +1,24 @@
+# Installation and Usage
+
+Install dependencies:
+
+```sh
+cd 1/
+$ yarn install
+```
+
+Run:
+
+```sh
+$ yarn run start
+```
+
+Run tests:
+```sh
+$ yarn run test
+```
+
+
 ## Objective 1
 
 > Build a simulation of a round robin load balancer. Given seven servers, named
