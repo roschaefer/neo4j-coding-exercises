@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "debug": "^4.1.1",
+    "jest": "^25.5.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  }
+}
